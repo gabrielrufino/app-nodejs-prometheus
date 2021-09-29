@@ -1,0 +1,24 @@
+{
+  "name": "app-nodejs-prometheus",
+  "version": "1.0.0",
+  "description": "A NodeJS app monitored by prometheus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielrufino/app-nodejs-prometheus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielrufino/app-nodejs-prometheus/issues"
+  },
+  "homepage": "https://github.com/gabrielrufino/app-nodejs-prometheus#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "prom-client": "^14.0.0"
+  }
+}
