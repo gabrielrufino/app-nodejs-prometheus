@@ -26,6 +26,20 @@ Response:
 {"message":"Hello, world!"}
 ```
 
+> GET /counter
+
+Response:
+```json
+{"metric":"counter"}
+```
+
+> GET /gauge
+
+Response:
+```json
+{"metric":"gauge"}
+```
+
 > GET /metrics
 
 Response: **Prometheus metrics**
