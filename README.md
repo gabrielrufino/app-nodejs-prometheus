@@ -16,6 +16,8 @@ npm ci
 docker-compose up
 ```
 
+The API will run at port 3000 and the Prometheus UI will run at port 9090.
+
 ### API
 
 > GET /
