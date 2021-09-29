@@ -1,2 +1,3 @@
-# app-nodejs-prometheus
-A NodeJS app monitored by prometheus
+# App - NodeJS & Prometheus
+
+A simple NodeJS app monitored by Prometheus

@@ -1,7 +1,7 @@
 {
   "name": "app-nodejs-prometheus",
   "version": "1.0.0",
-  "description": "A NodeJS app monitored by prometheus",
+  "description": "A simple NodeJS app monitored by Prometheus",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js"
