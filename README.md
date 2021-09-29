@@ -15,3 +15,16 @@ cd app-nodejs-prometheus
 npm ci
 docker-compose up
 ```
+
+### API
+
+> GET /
+
+Response:
+```json
+{"message":"Hello, world!"}
+```
+
+> GET /metrics
+
+Response: **Prometheus metrics**
