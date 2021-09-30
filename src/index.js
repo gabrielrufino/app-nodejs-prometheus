@@ -10,6 +10,7 @@ const register = new Registry()
 register.registerMetric(metrics.counter)
 register.registerMetric(metrics.gauge)
 register.registerMetric(metrics.histogram)
+register.registerMetric(metrics.summary)
 
 collectDefaultMetrics({ register })
 
@@ -19,6 +20,7 @@ app.get('/', controllers.root)
 app.get('/counter', controllers.counter)
 app.get('/gauge', controllers.gauge)
 app.get('/histogram', controllers.histogram)
+app.get('/summary', controllers.summary)
 
 app.get(
   '/metrics',
