@@ -9,6 +9,7 @@ const metrics = require('./metrics')
 const register = new Registry()
 register.registerMetric(metrics.counter)
 register.registerMetric(metrics.gauge)
+register.registerMetric(metrics.histogram)
 
 collectDefaultMetrics({ register })
 
@@ -17,6 +18,7 @@ const app = express()
 app.get('/', controllers.root)
 app.get('/counter', controllers.counter)
 app.get('/gauge', controllers.gauge)
+app.get('/histogram', controllers.histogram)
 
 app.get(
   '/metrics',
