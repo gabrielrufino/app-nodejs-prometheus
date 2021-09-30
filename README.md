@@ -40,6 +40,20 @@ Response:
 {"metric":"gauge"}
 ```
 
+> GET /histogram
+
+Response:
+```json
+{"metric":"histogram"}
+```
+
+> GET /summary
+
+Response:
+```json
+{"metric":"summary"}
+```
+
 > GET /metrics
 
 Response: **Prometheus metrics**
