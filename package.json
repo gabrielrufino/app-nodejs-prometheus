@@ -20,6 +20,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "folquire": "^0.1.1",
-    "prom-client": "^14.0.0"
+    "prom-client": "^14.0.1"
   }
 }
