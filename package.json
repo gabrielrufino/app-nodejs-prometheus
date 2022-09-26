@@ -1,5 +1,5 @@
 {
-  "name": "app-nodejs-prometheus",
+  "name": "@app/nodejs-prometheus",
   "private": true,
   "version": "1.0.0",
   "description": "A simple NodeJS app monitored by Prometheus",
